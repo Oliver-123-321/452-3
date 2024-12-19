@@ -1,0 +1,174 @@
+/* My name is Oliver */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #31a3ea;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px solid #77C1E3;
+}
+
+
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 24px;
+}
+
+.vertical-menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  background-color: #73c3f5;
+  overflow: hidden;
+}
+
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+main {
+  padding: 16px;
+  margin-left: 0;
+}
+
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+}
+
+.center {
+  max-width: 100%; 
+  height: auto;
+  text-align: center; 
+}
+.A {
+  
+  padding: 10px; 
+  margin: 10px 0; /* Margin */
+  text-align: center; /* Text centered */
+  border-radius: 6px;
+  background-color: rgb(232, 231, 230);
+  padding: 1rem;
+  display: flex; /* Enable Flexbox layout */
+  align-items: center; /* Child elements are centered on the cross axis (vertical direction) */
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;}
+
+.A  {
+  max-width: 100%; /* Maximum image width */
+  height: auto; /* Picture height automatic */
+  }
+  .image-container p {
+  margin-top: 5px; /* Space between introduction and picture */
+  }
+  .caption {
+  margin: 5px 0; /* Adds spacing  for each caption*/
+  }
+  .A:hover {  
+    transform: translateY(-5px);  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  }
+
+.text-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100%; 
+  /* Make sure the text container has a definite width */
+  width: 80%; /* Adjust as needed */
+  /* Set the following properties to ensure that the text is wrapped */
+  word-wrap: break-word; /* For older versions of Internet Explorer */
+  overflow-wrap: break-word; /* Standard attribute */
+  white-space: normal; /* Ensure that the text will wrap when needed */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.center {
+  width: 100%;
+  max-width: 1000px; /* Limit the maximum width of images */
+  height: auto; /* Keep the original aspect ratio */
+}
+.Page2-1{
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color:#9a9a9a;
+}
+.B {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+.TheCat {
+  position: absolute; 
+  top: 20px; 
+  left: 650px; /* 200 pixels from left */
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+th, td {
+  border: 2px solid black; 
+  padding: 8px; 
+  text-align: center; 
+}
